@@ -15,7 +15,7 @@ body {
 }
 
 
-/* Stili pagina contenitoreU */
+/* ------------------------------Stili pagina contenitoreU-------------------------------------------------------- */
 
 .contenitoreU {
     height: 50px;
@@ -62,7 +62,7 @@ body {
     z-index: 1;
 }
 
-/* Stili pagina contenitoreC */
+/* ------------------------------Stili pagina contenitorec-------------------------------------------------------- */
 
 .contenitoreC {
     width: 100vw;
@@ -107,4 +107,37 @@ body {
 
 .TextIn span {
     font-size: 15px; 
+}
+
+/* ------------------------------Stili pagina contenitoreD-------------------------------------------------------- */
+
+.contenitoreD {
+    height: 100px;
+    width: 100vw;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    align-content: start;
+    background-color: rgb(63, 63, 63);
+     
+}
+
+.contenitoreD .mute {
+    flex-basis: 10%;
+    padding: 20px;
+    
+}
+.contenitoreD h5 {
+    padding-top: 5px;
+   
+}
+.contenitoreD .fa-microphone{
+    font-size: 40px;
+    padding-left: 5px;
+}
+
+.contenitoreD .fa-angle-up{
+    font-size: 20px;
+    padding-left: 25px;
+    
 }
