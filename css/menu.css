@@ -1,0 +1,40 @@
+/*  Stili generali di pagina */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 20px;
+    font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+
+
+/* Stili pagina */
+.contenitore {
+    height: 100vh;
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-color: black;
+    display: flex;
+    overflow-y: scroll;
+    flex-wrap:wrap;
+}
+
+.Img {
+
+    width: calc((100% / 7) - 60px);
+    margin: 10px 30px;
+    max-width: 150px;
+    max-height: 150px;
+    /* flex-grow */
+    background-color: red;
+    position: relative;
+    
+}
+
+.Img img {
+    width: 200px;
+    height: 200px;
+}
