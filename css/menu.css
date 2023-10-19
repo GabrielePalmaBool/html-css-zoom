@@ -67,7 +67,7 @@ body {
 .contenitoreC {
     width: 100vw;
     display: flex;
-    overflow-y: auto; 
+    overflow: auto; 
     flex-wrap:wrap;
     align-content: start; /* gestiste lo spazio orizzontale tra le righe */
     padding-top: 50px;    /* distanza dal contenitore duperiore   */
