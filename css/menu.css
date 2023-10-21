@@ -51,11 +51,12 @@ body {
 /* ------------------------------Stili pagina contenitorec-------------------------------------------------------- */
 
 .contenitoreC {
-    height: calc(100vh - 150px);
+    height: calc((100vh - 150px) - 20px);
     overflow: auto; 
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    
 }
 
 .Img {
@@ -94,31 +95,75 @@ body {
 
 .contenitoreD {
     height: 100px;
-    width: 100vw;
     color: white;
     display:flex;
     flex-direction: row;
-    align-content: start;
+    justify-content: space-between;
     background-color: #222222;
-     
 }
 
-.contenitoreD .mute {
-    flex-basis: 10%;
-    padding: 20px;
-    
-}
 .contenitoreD h5 {
-    padding-top: 5px;
-   
-}
-.contenitoreD .fa-microphone{
-    font-size: 40px;
-    padding-left: 5px;
+    display: block; 
+    margin-top: 10px;
 }
 
 .contenitoreD .fa-angle-up{
-    font-size: 20px;
-    padding-left: 25px;
-    
+    font-size: 15px;
+    padding-left: 30px;
+    margin-right:10px;
 }
+
+/* Lato sinistro */
+.contenitoreD .Lato_sin{
+    flex-basis: 20%;
+    padding: 20px;
+}
+
+/* parte centrale */
+.contenitoreD .Centro{
+    padding: 20px 0px 0px 250px;
+    flex-basis: 70%;
+
+}
+
+/* Lato destro */
+.contenitoreD .Lato_des {
+    padding: 30px;
+    flex-basis: 10%;
+    background-color: lightgray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+
+}
+
+li i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+li .fa-user-group {
+    margin-left: 60px;
+}
+
+li .fa-share-from-square {
+    color: green;
+    margin-left: 50px;
+}
+
+
+li .fa-border-all {
+    margin-left: 50px;
+}
+
+.Lato_des li h5 {
+    color: red;
+}
+ 
+
