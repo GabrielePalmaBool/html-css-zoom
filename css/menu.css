@@ -51,7 +51,7 @@ body {
 /* ------------------------------Stili pagina contenitorec-------------------------------------------------------- */
 
 .contenitoreC {
-    height: calc((100vh - 150px) - 20px);
+    height: calc(100vh - 150px);
     overflow: auto; 
     display: flex;
     flex-wrap:wrap;
